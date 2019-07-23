@@ -1,5 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+![JSX+](https://img.shields.io/badge/JSX+-available-brightgreen.svg)
 ## Available Scripts
 
 In the project directory, you can run:
