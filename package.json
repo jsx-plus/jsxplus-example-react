@@ -68,10 +68,17 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "eslint": "eslint src/testEslint.jsx"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "plugins": [
+      "jsx-plus"
+    ],
+    "extends": [
+      "react-app",
+      "plugin:jsx-plus/recommended"
+    ]
   },
   "browserslist": {
     "production": [
@@ -134,5 +141,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "eslint-plugin-jsx-plus": "0.0.2"
   }
 }
