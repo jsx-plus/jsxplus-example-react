@@ -143,6 +143,6 @@
     ]
   },
   "devDependencies": {
-    "eslint-plugin-jsx-plus": "0.0.2"
+    "eslint-plugin-jsx-plus": "0.0.3"
   }
 }
