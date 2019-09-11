@@ -16,6 +16,10 @@ function App() {
         <img src={logo} x-class="App-logo" alt="logo" />
 
         {/* x-for loop */}
+        <p x-for={(loopItem, loopIndex) in listData} key={loopIndex}>
+          Edit <code>{loopItem}</code> and save to reload.
+        </p>
+
         <p x-for={(item, index)in listData}>
           Edit <code>src/App.js</code> and save to reload.
         </p>

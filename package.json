@@ -2,6 +2,22 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js",
+    "eslint": "eslint src/testEslint.jsx"
+  },
+  "eslintConfig": {
+    "plugins": [
+      "jsx-plus"
+    ],
+    "extends": [
+      "plugin:jsx-plus/recommended",
+      "react-app"
+    ],
+    "rules": {}
+  },
   "dependencies": {
     "@babel/core": "7.4.3",
     "@svgr/webpack": "4.1.0",
@@ -64,21 +80,6 @@
     "webpack-dev-server": "3.2.1",
     "webpack-manifest-plugin": "2.0.4",
     "workbox-webpack-plugin": "4.2.0"
-  },
-  "scripts": {
-    "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js",
-    "eslint": "eslint src/testEslint.jsx"
-  },
-  "eslintConfig": {
-    "plugins": [
-      "jsx-plus"
-    ],
-    "extends": [
-      "react-app",
-      "plugin:jsx-plus/recommended"
-    ]
   },
   "browserslist": {
     "production": [
@@ -143,6 +144,6 @@
     ]
   },
   "devDependencies": {
-    "eslint-plugin-jsx-plus": "0.0.2"
+    "eslint-plugin-jsx-plus": "^0.0.7"
   }
 }
