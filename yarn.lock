@@ -1358,8 +1358,8 @@ acorn-walk@^6.0.1:
   resolved "https://registry.npm.alibaba-inc.com/acorn-walk/download/acorn-walk-6.2.0.tgz#123cb8f3b84c2171f1f7fb252615b1c78a6b1a8c"
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.npm.alibaba-inc.com/acorn/download/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
 
 acorn@^6.0.1, acorn@^6.0.4, acorn@^6.0.5, acorn@^6.0.7:
   version "6.2.1"
@@ -3107,6 +3107,13 @@ eslint-plugin-jsx-a11y@6.2.1:
     emoji-regex "^7.0.2"
     has "^1.0.3"
     jsx-ast-utils "^2.0.1"
+
+eslint-plugin-jsx-plus@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsx-plus/-/eslint-plugin-jsx-plus-0.0.7.tgz#2e833dc77084738b5b272f0d70f8ac6310c3f861"
+  dependencies:
+    jsx-ast-utils "^2.2.1"
+    requireindex "^1.1.0"
 
 eslint-plugin-react-hooks@^1.5.0:
   version "1.6.1"
@@ -4968,6 +4975,13 @@ jsprim@^1.2.2:
 jsx-ast-utils@^2.0.1:
   version "2.2.1"
   resolved "https://registry.npm.alibaba-inc.com/jsx-ast-utils/download/jsx-ast-utils-2.2.1.tgz#4d4973ebf8b9d2837ee91a8208cc66f3a2776cfb"
+  dependencies:
+    array-includes "^3.0.3"
+    object.assign "^4.1.0"
+
+jsx-ast-utils@^2.2.1:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/jsx-ast-utils/-/jsx-ast-utils-2.2.3.tgz#8a9364e402448a3ce7f14d357738310d9248054f"
   dependencies:
     array-includes "^3.0.3"
     object.assign "^4.1.0"
@@ -7093,7 +7107,7 @@ require-main-filename@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.alibaba-inc.com/require-main-filename/download/require-main-filename-2.0.0.tgz#d0b329ecc7cc0f61649f62215be69af54aa8989b"
 
-requireindex@^1.2.0:
+requireindex@^1.1.0, requireindex@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npm.alibaba-inc.com/requireindex/download/requireindex-1.2.0.tgz#3463cdb22ee151902635aa6c9535d4de9c2ef1ef"
 
