@@ -1494,6 +1494,14 @@ array-includes@^3.0.3:
     define-properties "^1.1.2"
     es-abstract "^1.7.0"
 
+array-includes@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/array-includes/-/array-includes-3.1.1.tgz#cdd67e6852bdf9c1215460786732255ed2459348"
+  dependencies:
+    define-properties "^1.1.3"
+    es-abstract "^1.17.0"
+    is-string "^1.0.5"
+
 array-map@~0.0.0:
   version "0.0.0"
   resolved "https://registry.npm.alibaba-inc.com/array-map/download/array-map-0.0.0.tgz#88a2bab73d1cf7bcd5c1b118a003f66f665fa662"
@@ -3017,9 +3025,33 @@ es-abstract@^1.11.0, es-abstract@^1.12.0, es-abstract@^1.5.1, es-abstract@^1.7.0
     is-regex "^1.0.4"
     object-keys "^1.0.12"
 
+es-abstract@^1.17.0, es-abstract@^1.17.5:
+  version "1.17.6"
+  resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.17.6.tgz#9142071707857b2cacc7b89ecb670316c3e2d52a"
+  dependencies:
+    es-to-primitive "^1.2.1"
+    function-bind "^1.1.1"
+    has "^1.0.3"
+    has-symbols "^1.0.1"
+    is-callable "^1.2.0"
+    is-regex "^1.1.0"
+    object-inspect "^1.7.0"
+    object-keys "^1.1.1"
+    object.assign "^4.1.0"
+    string.prototype.trimend "^1.0.1"
+    string.prototype.trimstart "^1.0.1"
+
 es-to-primitive@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npm.alibaba-inc.com/es-to-primitive/download/es-to-primitive-1.2.0.tgz#edf72478033456e8dda8ef09e00ad9650707f377"
+  dependencies:
+    is-callable "^1.1.4"
+    is-date-object "^1.0.1"
+    is-symbol "^1.0.2"
+
+es-to-primitive@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/es-to-primitive/-/es-to-primitive-1.2.1.tgz#e55cd4c9cdc188bcefb03b366c736323fc5c898a"
   dependencies:
     is-callable "^1.1.4"
     is-date-object "^1.0.1"
@@ -3107,6 +3139,13 @@ eslint-plugin-jsx-a11y@6.2.1:
     emoji-regex "^7.0.2"
     has "^1.0.3"
     jsx-ast-utils "^2.0.1"
+
+eslint-plugin-jsx-plus@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsx-plus/-/eslint-plugin-jsx-plus-0.0.7.tgz#2e833dc77084738b5b272f0d70f8ac6310c3f861"
+  dependencies:
+    jsx-ast-utils "^2.2.1"
+    requireindex "^1.1.0"
 
 eslint-plugin-react-hooks@^1.5.0:
   version "1.6.1"
@@ -3229,9 +3268,9 @@ etag@~1.8.1:
   version "1.8.1"
   resolved "https://registry.npm.alibaba-inc.com/etag/download/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
 
-eventemitter3@^3.0.0:
-  version "3.1.2"
-  resolved "https://registry.npm.alibaba-inc.com/eventemitter3/download/eventemitter3-3.1.2.tgz#2d3d48f9c346698fce83a85d7d664e98535df6e7"
+eventemitter3@^4.0.0:
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
 
 events@^3.0.0:
   version "3.0.0"
@@ -3522,10 +3561,8 @@ flush-write-stream@^1.0.0:
     readable-stream "^2.3.6"
 
 follow-redirects@^1.0.0:
-  version "1.7.0"
-  resolved "https://registry.npm.alibaba-inc.com/follow-redirects/download/follow-redirects-1.7.0.tgz#489ebc198dc0e7f64167bd23b03c4c19b5784c76"
-  dependencies:
-    debug "^3.2.6"
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
 
 for-in@^0.1.3:
   version "0.1.8"
@@ -3800,6 +3837,10 @@ has-symbols@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.alibaba-inc.com/has-symbols/download/has-symbols-1.0.0.tgz#ba1a8f1af2a0fc39650f5c850367704122063b44"
 
+has-symbols@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/has-symbols/-/has-symbols-1.0.1.tgz#9f5214758a44196c406d9bd76cebf81ec2dd31e8"
+
 has-unicode@^2.0.0:
   version "2.0.1"
   resolved "https://registry.npm.alibaba-inc.com/has-unicode/download/has-unicode-2.0.1.tgz#e0e6fe6a28cf51138855e086d1691e771de2a8b9"
@@ -3983,10 +4024,10 @@ http-proxy-middleware@^0.19.1:
     micromatch "^3.1.10"
 
 http-proxy@^1.17.0:
-  version "1.17.0"
-  resolved "https://registry.npm.alibaba-inc.com/http-proxy/download/http-proxy-1.17.0.tgz#7ad38494658f84605e2f6db4436df410f4e5be9a"
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.18.1.tgz#401541f0534884bbf95260334e72f88ee3976549"
   dependencies:
-    eventemitter3 "^3.0.0"
+    eventemitter3 "^4.0.0"
     follow-redirects "^1.0.0"
     requires-port "^1.0.0"
 
@@ -4221,6 +4262,10 @@ is-callable@^1.1.4:
   version "1.1.4"
   resolved "https://registry.npm.alibaba-inc.com/is-callable/download/is-callable-1.1.4.tgz#1e1adf219e1eeb684d691f9d6a05ff0d30a24d75"
 
+is-callable@^1.2.0:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/is-callable/-/is-callable-1.2.1.tgz#4d1e21a4f437509d25ce55f8184350771421c96d"
+
 is-ci@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.alibaba-inc.com/is-ci/download/is-ci-2.0.0.tgz#6bc6334181810e04b5c22b3d589fdca55026404c"
@@ -4356,6 +4401,12 @@ is-regex@^1.0.4:
   dependencies:
     has "^1.0.1"
 
+is-regex@^1.1.0:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/is-regex/-/is-regex-1.1.1.tgz#c6f98aacc546f6cec5468a07b7b153ab564a57b9"
+  dependencies:
+    has-symbols "^1.0.1"
+
 is-regexp@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.alibaba-inc.com/is-regexp/download/is-regexp-1.0.0.tgz#fd2d883545c46bac5a633e7b9a09e87fa2cb5069"
@@ -4371,6 +4422,10 @@ is-root@2.0.0:
 is-stream@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npm.alibaba-inc.com/is-stream/download/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
+
+is-string@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/is-string/-/is-string-1.0.5.tgz#40493ed198ef3ff477b8c7f92f644ec82a5cd3a6"
 
 is-svg@^3.0.0:
   version "3.0.0"
@@ -4970,6 +5025,13 @@ jsx-ast-utils@^2.0.1:
   resolved "https://registry.npm.alibaba-inc.com/jsx-ast-utils/download/jsx-ast-utils-2.2.1.tgz#4d4973ebf8b9d2837ee91a8208cc66f3a2776cfb"
   dependencies:
     array-includes "^3.0.3"
+    object.assign "^4.1.0"
+
+jsx-ast-utils@^2.2.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/jsx-ast-utils/-/jsx-ast-utils-2.4.1.tgz#1114a4c1209481db06c690c2b4f488cc665f657e"
+  dependencies:
+    array-includes "^3.1.1"
     object.assign "^4.1.0"
 
 killable@^1.0.0:
@@ -5642,7 +5704,11 @@ object-hash@^1.1.4:
   version "1.3.1"
   resolved "https://registry.npm.alibaba-inc.com/object-hash/download/object-hash-1.3.1.tgz#fde452098a951cb145f039bb7d455449ddc126df"
 
-object-keys@^1.0.11, object-keys@^1.0.12:
+object-inspect@^1.7.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.8.0.tgz#df807e5ecf53a609cc6bfe93eac3cc7be5b3a9d0"
+
+object-keys@^1.0.11, object-keys@^1.0.12, object-keys@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npm.alibaba-inc.com/object-keys/download/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
 
@@ -7093,13 +7159,13 @@ require-main-filename@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.alibaba-inc.com/require-main-filename/download/require-main-filename-2.0.0.tgz#d0b329ecc7cc0f61649f62215be69af54aa8989b"
 
-requireindex@^1.2.0:
+requireindex@^1.1.0, requireindex@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npm.alibaba-inc.com/requireindex/download/requireindex-1.2.0.tgz#3463cdb22ee151902635aa6c9535d4de9c2ef1ef"
 
 requires-port@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.npm.alibaba-inc.com/requires-port/download/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+  resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
 
 resolve-cwd@^2.0.0:
   version "2.0.0"
@@ -7659,6 +7725,20 @@ string-width@^3.0.0:
     emoji-regex "^7.0.1"
     is-fullwidth-code-point "^2.0.0"
     strip-ansi "^5.1.0"
+
+string.prototype.trimend@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/string.prototype.trimend/-/string.prototype.trimend-1.0.1.tgz#85812a6b847ac002270f5808146064c995fb6913"
+  dependencies:
+    define-properties "^1.1.3"
+    es-abstract "^1.17.5"
+
+string.prototype.trimstart@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/string.prototype.trimstart/-/string.prototype.trimstart-1.0.1.tgz#14af6d9f34b053f7cfc89b72f8f2ee14b9039a54"
+  dependencies:
+    define-properties "^1.1.3"
+    es-abstract "^1.17.5"
 
 string_decoder@^1.0.0, string_decoder@^1.1.1:
   version "1.2.0"
